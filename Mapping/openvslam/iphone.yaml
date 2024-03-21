@@ -1,0 +1,37 @@
+# Equirectangular model for RICOH THETA S
+
+#==============#
+# Camera Model #
+#==============#
+
+Camera.name: "Iphone"
+Camera.setup: "monocular"
+Camera.model: "perspective"
+
+Camera.fx: 1695.99583
+Camera.fy: 1697.25415
+Camera.cx: 958.536782
+Camera.cy: 533.007660
+
+Camera.k1: 0.188330343
+Camera.k2: -1.05892142
+Camera.p1: -0.00135263803
+Camera.p2: -0.00168892829
+Camera.k3: 2.00489712
+
+Camera.fps: 30.0
+Camera.cols: 1920
+Camera.rows: 1080
+
+Camera.color_order: "RGB"
+
+#================#
+# ORB Parameters #
+#================#
+
+Feature.max_num_keypoints: 5000
+Feature.scale_factor: 1.15
+Feature.num_levels: 20
+Feature.ini_fast_threshold: 20
+Feature.min_fast_threshold: 0.5
+
